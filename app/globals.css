@@ -51,11 +51,11 @@
 }
 
 .hero__image-container {
-  @apply xl:flex-[1.5] flex justify-center items-center w-full xl:h-screen;
+  @apply xl:flex-[1] flex justify-end items-start w-full xl:h-screen mt-[-20%] sm:mt-auto;
 }
 
 .hero__image {
-  @apply relative xl:w-full w-[80%] xl:h-full h-[460px] z-0;
+  @apply relative xl:w-full w-[80%] xl:h-full h-[590px] z-0;
 }
 
 .hero__image-overlay {
